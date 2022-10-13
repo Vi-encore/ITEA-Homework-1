@@ -1,0 +1,91 @@
+body {
+  background: #e9e7e7;
+}
+
+.all_info {
+  max-width: 600px;
+  border: 1px #a8b6fb00 solid;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgb(39, 39, 39);
+  background: linear-gradient(
+    180deg,
+    rgba(120, 137, 222, 0.295) 0%,
+    rgb(142, 156, 225, 0.295) 50%,
+    rgb(162, 174, 233, 0.295) 100%
+  );
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-family: monospace;
+  color: rgb(59, 67, 109);
+  text-shadow: -2px 0px 15px rgba(237, 233, 233, 0.762);
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 225px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgb(39, 39, 39);
+}
+
+p {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 5px 20px 20px 20px;
+  text-align: center;
+  color: rgb(36, 41, 67);
+  text-shadow: -2px 5px 12px rgba(254, 254, 254, 0.838);
+}
+
+.reasons {
+  list-style: none;
+}
+
+.reason {
+  font-family: monospace;
+  font-size: 16px;
+  margin: 4px 0;
+  color: rgb(37, 42, 69);
+  text-shadow: 2px 10px 12px rgba(255, 255, 255, 0.715);
+}
+
+hr {
+  margin: 0 20px;
+  color: #bebdbd;
+  background-color: #fafafa;
+  height: 0.8px;
+}
+
+div {
+  margin: 0 auto;
+}
+
+.some_button {
+  max-width: 250px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: 600;
+  text-shadow: -2px 0px 12px rgba(134, 145, 203, 0.768);
+  display: block;
+  padding: 15px;
+  margin: 5px auto 20px auto;
+  text-decoration: none;
+  color: rgb(78, 90, 147);
+  background-color: #fafafa;
+  border: 1px #fafafa solid;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0px 4px 10px rgba(39, 39, 39, 0.689);
+}
+
+.some_button:hover {
+  color: #ffe9e3;
+  background-color: rgb(78, 90, 147);
+  text-shadow: -2px 0px 12px #ddcac4;
+  border: 1px solid rgb(78, 90, 147);
+}
